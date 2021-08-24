@@ -1,0 +1,117 @@
+@media (max-width: 600px) { /* это будет показано при разрешении монитора до 600 пикселей */
+	body{
+	background-color: rgb(3, 80, 73);
+	display: flex;
+	flex-direction: column;
+	width: 590px;
+	justify-content: center;
+	padding: 20px;
+}
+nav ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	font-size: 24px;
+	color: rgb(146, 146, 146);
+	justify-content: left;
+	padding: 0;
+}
+section{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
+h1{
+	font-size: 55px;
+	color: #fff;
+	font-weight: bolder;
+	margin-top: 20px;
+}
+.inf{
+	display: flex;
+	flex-direction: row;
+	
+}
+.blocks{
+	display: flex;
+	flex-direction: row;
+}
+.bl{
+	margin: 20px 40px 20px 40px;
+	color: #fff;
+	font-size: 22px;
+}
+.par1{
+	color: rgb(146, 146, 146);
+	margin-bottom: -15px;
+}
+.par2{
+	font-weight: bolder;
+}
+img{
+	width: 100px;
+	margin-right: 20px;
+}
+}
+
+@media (min-width: 600px) { /* это будет показано при разрешении монитора больше 600 пикселей */
+body{
+	background-color: rgb(3, 80, 73);
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+	justify-content: center;
+	padding: 20px;
+}
+nav ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	font-size: 22px;
+	color: rgb(146, 146, 146);
+	justify-content: left;
+	padding: 0;
+}
+section{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
+h1{
+	width: 700px;
+	font-size: 65px;
+	color: #fff;
+	font-weight: bolder;
+	margin-top: 20px;
+}
+.inf{
+	display: flex;
+	flex-direction: row;
+	
+}
+.blocks{
+	display: flex;
+	flex-direction: row;
+}
+.bl12, .bl34{
+	display: flex;
+	flex-direction: row;
+}
+.bl{
+	margin: 20px;
+	color: #fff;
+	font-size: 18px;
+}
+.par1{
+	color: rgb(146, 146, 146);
+	margin-bottom: -15px;
+}
+.par2{
+	font-weight: bolder;
+}
+img{
+	width: 70px;
+	margin-right: 20px;
+}
+}
+

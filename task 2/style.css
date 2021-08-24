@@ -1,0 +1,71 @@
+body{
+	background-color: rgba(252, 252, 221, 0.884);
+	padding: 10px;
+}
+img{
+	width: 100%;
+	border-radius: 5%;
+}
+.img{
+	width: 100%;
+	background-color: rgba(126, 83, 4, 0.884);
+	border-radius: 5%;
+	margin-left: 0;
+}
+figcaption{
+	color: #fff;
+	text-align: right;
+	padding: 5px 15px 15px;
+}
+
+@media (max-width: 600px) { /* это будет показано при разрешении монитора до 600 пикселей */
+	body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+}
+
+@media (min-width: 600px) and (max-width: 800px) { /* это будет показано при разрешении монитора от 600 пикселей до 800 пикселей */
+	body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.rightbl{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+}
+
+@media (min-width: 800px) { /* это будет показано при разрешении монитора больше 800 пикселей */
+	body{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	background-color: rgba(252, 252, 221, 0.884);
+	padding: 10px;
+}
+.rightbl{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	grid-row: span 2;
+}
+.box1, .box2{
+	padding-right: 40px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
